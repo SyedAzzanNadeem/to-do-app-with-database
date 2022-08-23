@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+
+<div class="todobox  text-white my-4">
+    <br />
+    <div class=" my-5  w-100 shadow">
+      <h2 class="text text-white display-5 text-center"> To Do App</h2>
+
+<div>
+  <img src="https://images.unsplash.com/photo-1523634921619-37ce98c1877f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG9kb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" width="1263px" height="400px" alt="">
+</div>
+
+
+    </div>
+    <div>
+      <input
+        type="text"
+        placeholder="Type something..."
+        name=""
+        id="inp"
+        style="outline: none"
+      />
+
+      <br/>
+      <br/>
+      <button class="add mb-5 px-2 text-white rounded" onclick="add()">
+         Add
+      </button>
+    <br/>
+      <!-- delete all button  -->
+      <button
+        class="btn btn-danger rounded text-white dlt mb-5"
+        onclick="deleteall()"
+      >
+        Delete All
+      </button>
+    </div>
+
+    <ol class="mb-3" id="parent">
+      <br />
+    </ol>
+  </div>
+</div>
+
+
+
+
+
+
+
+    <script type="module" src="app.js"></script>
+ 
+</body>
+</html>
